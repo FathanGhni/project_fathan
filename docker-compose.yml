@@ -4,7 +4,7 @@ services:
     build: ./php
     image: php:latest
     container_name: php_laporan
-    hostname: "php"
+    hostname: "php_fathan"
     volumes:
       - ./src:/var/www/html
       - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
@@ -34,7 +34,7 @@ services:
     build: ./nginx
     image: nginx:latest
     container_name: nginx_laporan
-    hostname: "nginx"
+    hostname: "nginx_fathan"
     ports:
       - "80:80"
     volumes:
