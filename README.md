@@ -16,3 +16,5 @@ php artisan db:seed
 ```
 
 happy codingg!!!!
+
+# fathan ganteng
